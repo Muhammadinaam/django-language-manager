@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="django-language-manager",
-    version="1.0.1",
+    version="1.0.2",
     author="Muhammad Inaam",
     author_email="your.email@example.com",
     description="A plug-and-play Django app for multilingual websites with URL-based language switching and RTL support",
@@ -14,6 +14,13 @@ setup(
     url="https://github.com/Muhammadinaam/django-language-manager",
     packages=['language_manager'],
     package_dir={'language_manager': '.'},
+    package_data={
+        'language_manager': [
+            'templates/**/*',
+            'templatetags/**/*',
+            'management/**/*',
+        ],
+    },
     include_package_data=True,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
