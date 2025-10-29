@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+recursive-include language_manager/templates *
+recursive-include language_manager/templatetags *
+recursive-include language_manager/management *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
