@@ -24,7 +24,7 @@
 Install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/yourusername/django-language-manager.git
+pip install git+https://github.com/Muhammadinaam/django-language-manager.git
 ```
 
 This will also install the required dependency (`polib`).
@@ -489,7 +489,7 @@ git push origin v1.1.0
 **3. Installing in Other Projects**
 ```bash
 # Install from GitHub
-pip install git+https://github.com/yourusername/django-language-manager.git@v1.1.0
+pip install git+https://github.com/Muhammadinaam/django-language-manager.git@v1.1.0
 
 # Use without 'apps.' prefix
 INSTALLED_APPS = ['language_manager']
