@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="django-language-manager",
-    version="1.0.0",
+    version="1.0.1",
     author="Muhammad Inaam",
     author_email="your.email@example.com",
     description="A plug-and-play Django app for multilingual websites with URL-based language switching and RTL support",
